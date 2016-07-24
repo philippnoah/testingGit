@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'testingGit' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for testingGit
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'ImagePicker'
+  pod 'TabPageViewController'
+  pod 'PageController'
+  pod 'PagingMenuController'
+  pod 'KMPlaceholderTextView', '~> 1.2.2' 
+  pod 'CQGoogleDirections'
+  pod 'GoogleMaps'
+end
